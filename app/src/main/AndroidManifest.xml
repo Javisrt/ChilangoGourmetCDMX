@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChilangoGourmetCDMX"
+        tools:targetApi="31">
+        <activity
+            android:name=".Pastel"
+            android:exported="false" />
+        <activity
+            android:name=".Pay"
+            android:exported="false" />
+        <activity
+            android:name=".Jugo"
+            android:exported="false" />
+        <activity
+            android:name=".Refresco"
+            android:exported="false" />
+        <activity
+            android:name=".Agua"
+            android:exported="false" />
+        <activity
+            android:name=".Molcajete"
+            android:exported="false" />
+        <activity
+            android:name=".Enchiladas"
+            android:exported="false" />
+        <activity
+            android:name=".Quesadillas"
+            android:exported="false" />
+        <activity
+            android:name=".Tacos"
+            android:exported="false" />
+        <activity
+            android:name=".Toolbar"
+            android:exported="false" />
+        <activity
+            android:name=".Toobar"
+            android:exported="false" />
+        <activity
+            android:name=".Tabs"
+            android:exported="false" />
+        <activity
+            android:name=".Tecolote"
+            android:exported="false"
+            android:label="@string/title_activity_tecolote"
+            android:theme="@style/Theme.ChilangoGourmetCDMX.NoActionBar" />
+        <activity
+            android:name=".LasMoras"
+            android:exported="false" />
+        <activity
+            android:name=".LaCuna"
+            android:exported="false" />
+        <activity
+            android:name=".LosVitrales"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
